@@ -386,7 +386,7 @@ private extension CoachMarksViewController {
     ///
     /// - Parameter sender: the object sending the message
     @objc func didTapCoachMark(_ sender: AnyObject?) {
-        delegate?.didTap(coachMarkView: currentCoachMarkView)
+//         delegate?.didTap(coachMarkView: currentCoachMarkView)
     }
 
     /// Will be called when the user choose to skip the coach mark tour.
