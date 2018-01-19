@@ -41,7 +41,7 @@ public class CoachMarkBodyDefaultView: UIControl, CoachMarkBodyView {
     }
 
     public var nextControl: UIControl? {
-        return self
+        return nil
     }
 
     public var nextLabel: UILabel { return views.nextLabel }
